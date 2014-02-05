@@ -2,11 +2,11 @@
 TimeToRemove = 300
 RemovePickups = true
 RemoveProjectiles = true
-RemoveMobs = true
+RemoveMobs = false
 --MOBLIMITER--
-MaxMobsInChunk = 3
-Monsters = 2000
-Passive = 2000
-Ambient = 2000
-Water = 2000
+MaxMobsInChunk = 4
+Monsters = 100
+Passive = 50
+Ambient = 15
+Water = 15
 
