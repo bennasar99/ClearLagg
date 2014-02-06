@@ -8,6 +8,7 @@ ClearLagg clone for MCServer
 - Limit mobs
 
 **Commands/Permisions**
+
 /lagg   clearlagg.lagg
 
 /lagg clear (clears all entities)
@@ -17,6 +18,7 @@ ClearLagg clone for MCServer
 /lagg killmobs (kills all mobs)
 
 **Settings(settings.lua)**
+
 --GENERAL--
 
 TimeToRemove = 300       - Time until clearing all entities (in seconds, default 5 minutes)
@@ -28,6 +30,7 @@ RemoveProjectiles = true - If true, projectiles will be cleared
 RemoveMobs = false       - If true, all mobs will be removed
 
 --MOBLIMITER--
+
 MaxMobsInChunk = 6       - Max mobs in the same chunk
 
 Monsters = 100           - Max monsters in world
