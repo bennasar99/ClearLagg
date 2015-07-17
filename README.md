@@ -1,23 +1,28 @@
 ClearLagg
 =========
 
-ClearLagg clone for MCServer
+Reduce lag on your Cuberite server by automatically removing entities and unloading chunks.
 
-**Features**
+### Features
+
 - Clear all entities (configurable time)
+
 - Limit mobs
 
-**Commands/Permisions**
+- Unload unused chunks
 
-/lagg   clearlagg.lagg
+### Commands
 
-/lagg clear (clears all entities)
+| Command | Permission | Description |
+| ------- | ---------- | ----------- |
+|/lagg | clearlagg.lagg | Spawn a TNT in the location you're looking at.|
+|/lagg clear | clearlagg.lagg | Clears all entities on the server.|
+|/lagg check | clearlagg.lagg | Shows the amount of entities on the server.|
+|/lagg killmobs | clearlagg.lagg | Kills all mobs on the server.|
+|/lagg info | clearlagg.lagg | Shows information about the server.|
+|/lagg unloadchunks | clearlagg.lagg | Unloads unused chunks.|
 
-/lagg check (counts entities)
-
-/lagg killmobs (kills all mobs)
-
-**Settings(settings.lua)**
+### Settings (settings.lua)
 
 --GENERAL--
 
@@ -40,4 +45,3 @@ Passive = 50             - Max passive mobs in world
 Ambient = 15             - Max ambient mobs in world
 
 Water = 15               - Max water mobs in world
-
