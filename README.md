@@ -13,14 +13,14 @@ Reduce lag on your Cuberite server by automatically removing entities and unload
 
 ### Commands
 
-| Command | Aliases | Permission | Description |
-| ------- | ------- | ---------- | ----------- |
-|/lagg | | clearlagg.lagg | Spawn a TNT in the location you're looking at.|
-|/lagg clear | | clearlagg.lagg | Clears all entities on the server.|
-|/lagg check | | clearlagg.lagg | Shows the amount of entities on the server.|
-|/lagg killmobs | | clearlagg.lagg | Kills all mobs on the server.|
-|/lagg info | | clearlagg.lagg | Shows information about the server.|
-|/lagg unloadchunks | | clearlagg.lagg | Unloads unused chunks.|
+| Command | Permission | Description |
+| ------- | ---------- | ----------- |
+|/lagg | clearlagg.lagg | Spawn a TNT in the location you're looking at.|
+|/lagg clear | clearlagg.lagg | Clears all entities on the server.|
+|/lagg check | clearlagg.lagg | Shows the amount of entities on the server.|
+|/lagg killmobs | clearlagg.lagg | Kills all mobs on the server.|
+|/lagg info | clearlagg.lagg | Shows information about the server.|
+|/lagg unloadchunks | clearlagg.lagg | Unloads unused chunks.|
 
 ### Settings (settings.lua)
 
